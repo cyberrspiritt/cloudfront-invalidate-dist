@@ -12,6 +12,7 @@ Install the [Serverless Framework](https://serverless.com/) if you don't have it
 
     git clone https://github.com/jweyrich/cloudfront-invalidate-dist.git
     cd cloudfront-invalidate-dist
+    export AWS_SDK_LOAD_CONFIG=1
     serverless deploy [--aws-profile yourProfile]
 
 ### Configure your CodePipeline
